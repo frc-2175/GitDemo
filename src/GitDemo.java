@@ -13,8 +13,14 @@ public class GitDemo {
 		
 		System.out.print("What's your grade? ");
 		int grade = in.nextInt();
+		in.nextLine();
 		
 		System.out.println("You are in grade " + grade);
+		
+		System.out.print("What is your favorite color? ");
+		String color = in.nextLine();
+		
+		System.out.println("Your favorite color is " + color);
 		
 		in.close();
 	}
