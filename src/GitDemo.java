@@ -17,7 +17,7 @@ public class GitDemo {
 		
 		System.out.println("You are in grade " + grade);
 		
-		System.out.print("What is your favorite color? ");
+		System.out.print("Why is life horrible? ");
 		String color = in.nextLine();
 		
 		System.out.println("Your favorite color is " + color);
