@@ -30,7 +30,8 @@ public class GitDemo {
 		System.out.print("What is your favorite movie?");
 		String movie = in.nextLine();
 		
-		System.out.println("Are you sure your favorite movie is " + movie);
+		System.out.println("Are you sure your favorite movie is " + movie +"?");
+
 		
 		in.close();
 	}
