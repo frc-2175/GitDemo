@@ -11,6 +11,11 @@ public class GitDemo {
 		
 		System.out.println("Hello, " + name);
 		
+		System.out.print("What's your grade? ");
+		int grade = in.nextInt();
+		
+		System.out.println("You are in grade " + grade);
+		
 		in.close();
 	}
 
