@@ -27,6 +27,11 @@ public class GitDemo {
 		
 		System.out.println("Your favorite type of pizza is " + pizza);
 		
+		System.out.print("What is your favorite movie?");
+		String movie = in.nextLine();
+		
+		System.out.println("Are you sure your favorite movie is " + movie);
+		
 		in.close();
 	}
 
