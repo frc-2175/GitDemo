@@ -27,7 +27,7 @@ public class GitDemo {
 			System.out.print("What is your favorite meme? ");
 			String meme = in.nextLine();
 			
-			System.out.println("Name: " + name + " Grade: " + grade + " Favorite water buffalo: " + waterbuffalo + " Favorite pizza: " + pizza + " Favorite movie: " + movie + " Favorite meme: " + meme);
+			System.out.println("Name: " + name + "; Grade: " + grade + "; Favorite water buffalo: " + waterbuffalo + "; Favorite pizza: " + pizza + "; Favorite movie: " + movie + "; Favorite meme: " + meme);
 			System.out.print("Is this correct? (y/n) ");
 			String confirm = in.nextLine();
 			if (confirm.equals("y")) {
