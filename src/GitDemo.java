@@ -6,6 +6,8 @@ public class GitDemo {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
+		String[] stuff = {"Ha, ha very funny. Now what is it?", "Jokes over, just tell us.", "Do you want me to hurt you?", "You're just a little punk aren't ya. How newby are you?", "..."};
+		
 		while (true) {
 		
 			System.out.print("What's your name? ");
@@ -33,7 +35,7 @@ public class GitDemo {
 			if (confirm.equals("y")) {
 				break;
 			}
-			
+		
 		}
 		
 		System.out.println("Thank you for your time!");
@@ -48,18 +50,23 @@ public class GitDemo {
 			System.out.print("On a scale of 1 - 1000 how much newb are you? ");
 			int newblvl = in.nextInt();
 			in.nextLine();
+			int i = 0;
 			while (true) {
 				if (newblvl > 1000 || newblvl < 1) {
-					System.out.println("Ha, ha very funny. Now what is it?");
+					System.out.println(stuff[i]);
 					newblvl = in.nextInt();
 					in.nextLine();
 				}
+				
 				else {
 					break;
 				}
+				if (i < 5) {
+					i++;				
+				}
 			}
 			
-			System.out.println("You claim that your allegiance to the Illuminati is " + scrt + ". When we asked you if you will kill anyone you answered: " + kill + ". Your newb level (that you claim) is:" + newblvl + ". We know that you are a dirty little liar.");
+			System.out.println("You claim that your allegiance to the Illuminati is " + scrt + ". When we asked you if you will kill anyone you answered: " + kill + ". Your newb level (that you claim) is: " + newblvl + ". We know that you are a dirty little liar.");
 			System.out.print("Done being interrogated? (y/n) ");
 			String confirm = in.nextLine();
 			if (confirm.equals("y")) {
