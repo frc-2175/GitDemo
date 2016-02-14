@@ -86,7 +86,7 @@ public class GitDemo {
             } else {
                 System.out.println(
                         "Thank you for your time. But we have run out of use for you. Kill him.");
-                System.out.println("You have been executed.");
+                System.out.println("You have been EXECUTED.");
                 break;
             }
         }
